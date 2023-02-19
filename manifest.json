@@ -1,0 +1,16 @@
+{
+    "name": "Understanding Things",
+    "version": "1.0.0",
+    "description": "This is an extension to let you start your day with fresh mindset by suggesting you some inspirational quotes",
+    "manifest_version": 3,
+    "author": "Tharun R",
+    "icons": {
+        "16": "./imgs/icon16.png",
+        "48": "./imgs/icon48.png",
+        "128": "./imgs/icon128.png"
+    },
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Understandig Things"
+    }
+}

@@ -1,0 +1,105 @@
+html{
+    width: 657px;
+    height: 416px;
+    margin: 0;
+}
+
+body{
+    position: relative;
+    width: 657px;
+    height: 416px;
+    
+    background: #1E1E1E;
+    margin: 0;
+    overflow: hidden;
+}
+
+#image{
+    position: absolute;
+    width: 657px;
+    height: 416px;
+    left: 0px;
+    top: 0px;
+    margin-right: 0;
+    
+    background: url("./imgs/pic657.png");
+    background-blend-mode: lighten;
+    opacity: 0.9;
+
+    overflow: hidden;
+}
+
+#positioning{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 2px;
+    
+    position: absolute;
+    width: 578px;
+    height: 108px;
+    left: 40px;
+    top: 92px;
+}
+
+#btn{
+    position: absolute;
+    width: 279px;
+    height: 50px;
+    left: 190px;
+    top: 321px;
+
+    background: #1E1E1E;
+    opacity: 0.8;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+
+    font-family: 'Kreon', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#quotes{
+    width: 578px;
+    height: 78px;
+    
+    font-family: 'Kreon', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 26px;
+    text-align: center;
+    
+    color: #FFF7F7;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#author{
+    width: 262px;
+    height: 25px;
+    
+    font-family: 'Kreon', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    
+    color: #FFF7F7;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
